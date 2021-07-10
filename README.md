@@ -199,7 +199,7 @@ Materials I read / watch:
 - https://medium.com/ergonode/microservices-approach-in-a-typical-vue-application-e07544b6f9a1
 - https://medium.com/bb-tutorials-and-thoughts/how-to-implement-micro-frontend-architecture-with-vue-js-da295ff2ce66
 - https://dev.to/ifarhad/implement-nuxt-vue-micro-service-1oo1
-- https://www.youtube.com/watch?v=HVsySz-h9r4
+- https://www.youtube.com/watch?v=y69VDOczkik (2x speed)
 
 
 Thank you Michael Gallagher & Jamie Curnow
