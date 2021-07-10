@@ -7,14 +7,15 @@ Share code between these 2 Apps. This is an attemp to test microservice on FE.
 
 ## Usage
 > npx nuxt
+
 on the shell / header app
 
 Make changes on this Header App and see it on Shell App.
 Next to do is to use VueX(?) to share the state.
 
 ## URL
-/login
-/componentPage
+- `/login`
+- `/componentPage`
 
 
 ## Step by step
@@ -143,7 +144,7 @@ Create component in `header`:
 > echo '<template><comp/></template>' > componentPage.vue
 ```
 
-Test it in portal-one(from package root):
+Test it in header(from package root):
 ```bash
 > echo 'export default { components: true }' > nuxt.config.js
 > npx nuxt
@@ -176,11 +177,11 @@ On `shell`:
 Create `comp.vue` and add:
 ```js
 <template>
-  <comp class="overridden"/>
+  <comp class="bg-red"/>
 </template>
 
 <style>
-  .overridden { text-transform: uppercase; }
+  .red { background-color: red; }
 </style>
 
 <script>
@@ -194,6 +195,13 @@ Go to http://localhost:3000/componentPage and you should see the override.
 
 
 ### Thank you!
+Materials I read / watch:
+- https://medium.com/ergonode/microservices-approach-in-a-typical-vue-application-e07544b6f9a1
+- https://medium.com/bb-tutorials-and-thoughts/how-to-implement-micro-frontend-architecture-with-vue-js-da295ff2ce66
+- https://dev.to/ifarhad/implement-nuxt-vue-micro-service-1oo1
+- https://www.youtube.com/watch?v=HVsySz-h9r4
+
+
 Thank you Michael Gallagher & Jamie Curnow
 - https://medium.com/dailyjs/5-tips-for-sharing-code-between-nuxtjs-projects-6ffb5b7f8a25
 - https://medium.com/carepenny/creating-a-nuxt-module-1c6e3cdf1037
