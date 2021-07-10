@@ -199,9 +199,14 @@ Materials I read / watch:
 - https://medium.com/ergonode/microservices-approach-in-a-typical-vue-application-e07544b6f9a1
 - https://medium.com/bb-tutorials-and-thoughts/how-to-implement-micro-frontend-architecture-with-vue-js-da295ff2ce66
 - https://dev.to/ifarhad/implement-nuxt-vue-micro-service-1oo1
+- https://dev.to/ifarhad/implement-nuxt-vue-micro-service-1oo1
+- https://micro-frontends.org/
+https://dev.to/jherr/simplified-micro-frontends-in-vue-3dom
 - https://www.youtube.com/watch?v=y69VDOczkik (2x speed)
 
-
-Thank you Michael Gallagher & Jamie Curnow
-- https://medium.com/dailyjs/5-tips-for-sharing-code-between-nuxtjs-projects-6ffb5b7f8a25
+Experiments:
+- https://muhaddis.info/how-to-use-multiple-nuxtjs-applications-on-the-frontend/
+- https://ara-framework.github.io/website/
+- https://github.com/airbnb/hypernova (?)
 - https://medium.com/carepenny/creating-a-nuxt-module-1c6e3cdf1037
+- https://medium.com/dailyjs/5-tips-for-sharing-code-between-nuxtjs-projects-6ffb5b7f8a25
